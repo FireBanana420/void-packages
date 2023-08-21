@@ -1,6 +1,6 @@
 # Template file for 'cargo-bootstrap'
 pkgname=cargo-bootstrap
-version=1.69.0
+version=1.71.1
 revision=1
 short_desc="Bootstrap binaries of Rust package manager"
 maintainer="Orphaned <orphan@voidlinux.org>"
@@ -24,15 +24,15 @@ esac
 case "$XBPS_TARGET_MACHINE" in
 	i686)
 		distfiles="${_bootstrap_url}/cargo-${version}-i686-unknown-linux-gnu.tar.xz"
-		checksum="4c9b1b2fb692bb0c81e524df6368723f061c8bb0d21a1f487eb8e5c2bdf323ab"
+		checksum="fca0d2e9a561a00eeacedbec15deed35e388d872282092257fe81c9b2467637d"
 		;;
 	x86_64)
 		distfiles="${_bootstrap_url}/cargo-${version}-x86_64-unknown-linux-gnu.tar.xz"
-		checksum="336eeabf231a7665c26c127a37b8aefffe28cb087c5c8d4ba0460419f5f8eff2"
+		checksum="55760c2f20356fe5cb2a4aa105e20693a573048f1dbc9daa41a0983fc0930b15"
 		;;
 	x86_64-musl)
 		distfiles="${_bootstrap_url}/cargo-${version}-x86_64-unknown-linux-musl.tar.xz"
-		checksum="17f5c6481a881599adb5f665480d9985073155eda9c9fdc1e5663563db51b970"
+		checksum="865d33e427603db0a3514d58824ce51c0cf8a085b74ebd0d3d7bbf356f178279"
 		;;
 	# placeholders for user-supplied distfiles
 	ppc64le)
